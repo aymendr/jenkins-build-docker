@@ -14,7 +14,7 @@ node{
         docker.image('aymendr/nginx').withRun('-p 80:80') { c ->
 
         sh 'docker ps'
-
+        sh 'sleep 30s'
         sh 'curl localhost'
 
     }

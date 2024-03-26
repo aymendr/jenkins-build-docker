@@ -1,9 +1,9 @@
 node{
   //def app
 
-    stage('Clone') {
+    /*stage('Clone') {
         checkout scm
-    }
+    }*/
 
     stage('Build image') {
         //app = docker.build("aymendr/nginx")
